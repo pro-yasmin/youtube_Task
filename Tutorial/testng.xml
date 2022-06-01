@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite test" parallel="methods"  thread-count="2">
+
+  <test  name="Chrome Test" >
+   <parameter name="browser" value="chrome" />
+  
+    <classes>
+      <class name="com.Tutorial.testcases.YouTubeTest"/>
+     </classes>   
+  </test> <!-- Test -->
+  
+   <test  name="Firfox Test" >
+   <parameter name="browser" value="firefox" />
+   
+    <classes>
+      <class name="com.Tutorial.testcases.YouTubeTest"/>
+     </classes>   
+  </test>  
+  
+</suite> <!-- Suite -->

@@ -11,6 +11,8 @@ public class ApiPage {
 	private static String url="https://jsonplaceholder.typicode.com/";
 	private Properties properties;
 	
+	
+	
 	public ApiPage(Properties properties) {
 		this.properties = properties;	
 	}
